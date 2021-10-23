@@ -1,0 +1,113 @@
+/* 
+        Howdy! 
+        This is your styling page (css: casscading style sheet)
+        
+        This is a comment. Outside of this section, you will add
+        specific styles to add some pizzaz to your website.
+ */
+
+body, html {
+        height: 100%;
+}
+
+.background-pic {
+        background-image: url('img/image2.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/* text on home page */
+.name {
+        font-size: 75px;
+        color: white;
+        padding-top: 12%;
+        padding-bottom: 0%;
+        font-family: 'Oswald', sans-serif;
+}
+.backtext {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 50px;
+            color:white;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+}
+
+/* footer */
+footer{
+      background-color:rgb(102, 113, 146);
+      color:white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+}
+.social a{
+        font-size: 50px;
+        padding: 10px;
+        border-radius: 50%;
+}
+.fa-linkedin{
+        width:10px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+}
+.fa-instagram{
+        width:10px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+}
+.fa-linkedin:hover{
+        color:#0A66C2;
+}
+.fa-instagram:hover{
+        color:#E4405F;
+}
+
+
+/*
+.social-menu ul{
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        padding: 0;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        display: flex;  
+        
+}
+.social-menu ul li{
+        list-style: none;
+        margin: 0 10px;
+}
+.social-menu ul li .fab{
+        font-size: 30px;
+        line-height: 60px;
+        transition: .6s;
+        color:black;
+}
+.social-menu ul li .fab:hover{
+        color: white;
+}
+.social-menu ul li a{
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: .6s;
+        box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+        transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+        background-color: #007bb5;
+}
+.social-menu ul li:nth-child(2) a:hover{
+        background-color: #E4405F;
+}
+*/
